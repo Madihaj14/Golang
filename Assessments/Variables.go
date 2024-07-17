@@ -20,4 +20,9 @@ func main() {
 	messageEnd := "years old!"
 
 	fmt.Println(messageStart, age, messageEnd)
+
+	//EX4 (Same line Declaration)
+	averageOpenRate, displayMessage := .23, "is the average open rate of your messages"
+
+	fmt.Println(averageOpenRate, displayMessage)
 }
