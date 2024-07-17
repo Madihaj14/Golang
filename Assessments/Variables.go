@@ -25,4 +25,10 @@ func main() {
 	averageOpenRate, displayMessage := .23, "is the average open rate of your messages"
 
 	fmt.Println(averageOpenRate, displayMessage)
+
+	//EX5 (Type Sizes)
+	accountAgeFloat := 2.6
+	accountAgeInt := int(accountAgeFloat)
+
+	fmt.Println("Your account has existed for", accountAgeInt, "years")
 }
