@@ -68,15 +68,7 @@ func main() {
 	isSubscribed := false
 	message := "Sometimes a hypocrite is nothing more than a man in the process of changing."
 
-	userLog := fmt.Sprintf(
-		"Name: %s %s, Age: %d, Rate: %.1f, isSubscribed: %t, Message: %s",
-		fname,
-		lname,
-		Age,
-		messageRate,
-		isSubscribed,
-		message,
-	)
+	userLog := fmt.Sprintf("Name: %s %s, Age: %d, Rate: %.1f, isSubscribed: %t, Message: %s", fname, lname, Age, messageRate, isSubscribed, message)
 
 	fmt.Println(userLog)
 
