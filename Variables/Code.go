@@ -59,6 +59,7 @@ func main() {
 	msg := fmt.Sprintf("Hi %s, your open rate is %.1f percent\n", name, openRate)
 
 	fmt.Print(msg)
+<<<<<<< HEAD
 
 	// EX10 (Formats Practice)
 	fname := "Dalinar"
@@ -80,4 +81,6 @@ func main() {
 
 	fmt.Println(userLog)
 
+=======
+>>>>>>> 54bad728021e7d1a025462dd9c737a1f76632995
 }
