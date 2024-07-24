@@ -1,3 +1,5 @@
+//EX1 Conditionals
+
 package main
 
 import "fmt"
@@ -9,7 +11,7 @@ func main() {
 
 	// don't touch above this line
 
-	if messageLen > maxMessageLen {
+	if messageLen <= maxMessageLen {
 		fmt.Println("Message sent")
 	} else {
 		fmt.Println("Message not sent")
