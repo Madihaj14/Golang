@@ -52,6 +52,14 @@ func main() {
 
 	fmt.Println("number of seconds in an hour:", secondsInHour)
 
+	//EX9 (Formatting Strings in Go)
+	const name = "Saul Goodman"
+	const openRate = 30.5
+
+	msg := fmt.Sprintf("Hi %s, your open rate is %.1f percent\n", name, openRate)
+
+	fmt.Print(msg)
+
 	// EX10 (Formats Practice)
 	fname := "Dalinar"
 	lname := "Kholin"
