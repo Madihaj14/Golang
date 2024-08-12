@@ -7,7 +7,7 @@ func concat(s1 string, s2 string) string {
 	return s1 + s2
 }
 
-func mAin() {
+func main() {
 	test("Lane,", " happy birthday!")
 	test("Elon,", " hope that Tesla thing works out")
 	test("Go", " is fantastic")
