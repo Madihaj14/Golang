@@ -30,7 +30,7 @@ func findAnagrams(s string, p string) []int {
 			result = append(result, i-len(p)+1)
 		}
 	}
-	return result
+
 }
 
 func main() {
